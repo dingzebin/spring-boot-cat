@@ -1,5 +1,5 @@
 # spring-boot-cat
-## Add below configuration to application.yml
+## Add the following configuration to the application.yml
 ```yaml
  spring:
    application:
