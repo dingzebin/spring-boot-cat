@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: application1
+cat:
+  mode: client
+  servers[0]:
+    ip: 127.0.0.1:8080
+    port: 2280
+    httpPort: 8080
+  servers[1]:
+    ip: 127.0.0.1:8080
+    port: 2280
+    httpPort: 8080
+    enabled: false
